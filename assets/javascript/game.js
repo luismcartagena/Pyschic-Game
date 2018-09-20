@@ -56,11 +56,9 @@ var game = {
 	input : function(letter) {
 		if(acceptLetter(letter) && this.usedLetters.indexOf(letter) === -1 ) {
 			if(letter === this.gameLetter) {
-				var audiowin = new Audio("assets/audio/win.mp3");
-				audiowin.play()
 				this.wins++;
 				this.start();
-				alert("you guessed the letter right it was " + letter);
+				alert("You guessed the letter right! It was '" + letter + "'.");
 			} else {
 				this.guesses--;
 				this.lettersUsed.push(letter);
@@ -68,8 +66,6 @@ var game = {
 
 		}
 		if(this.guesses <= 0){
-			var audiolose = new Audio("assets/audio/losee.mp3");
-			audiolose.play();
 			this.loses++;
 			this.start();
 		}
