@@ -1,0 +1,27 @@
+#gameInfo {
+	width:610px;
+
+}
+
+.textandboxstyling { 
+	padding:20px;
+	background-color: purple;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 2px 2px 1px black,
+				-2px 2px 1px black;
+    color:white;    
+    border: solid thick black;    
+ }
+ 
+ header h1 {
+ 	width:559px;
+ 	padding:20px;
+	background-color: purple;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 1px black,
+				-2px 2px 1px black;
+    color:white;   
+    border: solid thick black;  	
+ }
